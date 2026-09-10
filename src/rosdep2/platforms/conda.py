@@ -44,8 +44,8 @@ def register_platforms(context):
 def conda_detect(packages):
     # This is a stub implementation for package mapping only
     raise NotImplementedError(
-        "Conda installer does not support package detection." \
-        "Please manage conda packages manually in your conda environment."
+        'Conda installer does not support package detection.'
+        'Please manage conda packages manually in your conda environment.'
     )
 
 
