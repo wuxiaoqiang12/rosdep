@@ -62,6 +62,7 @@ def register_platforms(context):
     register_fedora(context)
     register_openeuler(context)
     register_rhel(context)
+
     # Aliases
     register_rhel_clone(context, OS_ALMALINUX)
     register_rhel_clone(context, OS_CENTOS)
