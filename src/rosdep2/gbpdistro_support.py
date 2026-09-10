@@ -11,6 +11,7 @@ from rospkg.os_detect import OS_OSX
 from rospkg.os_detect import OS_UBUNTU
 
 from .core import InvalidData, DownloadFailure
+from .platforms.conda import CONDA_INSTALLER
 from .platforms.debian import APT_INSTALLER
 from .platforms.osx import BREW_INSTALLER
 from .platforms.redhat import YUM_INSTALLER
